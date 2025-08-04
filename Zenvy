@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenvy Vibes</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+    header {
+      background: #1f1f1f;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #00ffcc;
+      margin: 0;
+    }
+    nav {
+      text-align: center;
+      margin: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #00ffcc;
+    }
+    section {
+      padding: 2rem;
+    }
+    iframe {
+      max-width: 100%;
+      height: 315px;
+    }
+    footer {
+      background: #1f1f1f;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 0.5rem;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Zenvy Vibes</h1>
+    <p>Entertainment | Music | Memes | Vibes</p>
+  </header>  <nav>
+    <a href="#videos">Videos</a>
+    <a href="#music">Music</a>
+    <a href="#gallery">Memes</a>
+    <a href="#signup">Join</a>
+  </nav>  <section id="videos">
+    <h2>🔥 Trending Videos</h2>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    <p>More videos coming soon!</p>
+  </section>  <section id="music">
+    <h2>🎧 Zenvy Playlist</h2>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M" width="100%" height="152" frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </section>  <section id="gallery" class="gallery">
+    <h2>😂 Meme Gallery</h2>
+    <img src="https://i.imgflip.com/30b1gx.jpg" alt="Funny meme">
+    <img src="https://i.imgflip.com/2/1bij.jpg" alt="Funny meme">
+  </section>  <section id="signup">
+    <h2>💌 Join the Vibe</h2>
+    <form>
+      <input type="email" placeholder="Your email" required>
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>  <footer>
+    <p>Follow us: 
+      <a href="https://instagram.com" target="_blank">Instagram</a> | 
+      <a href="https://youtube.com" target="_blank">YouTube</a> | 
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+    </p>
+    <p>&copy; 2025 Zenvy Vibes. All rights reserved.</p>
+  </footer>
+</body>
+</html>
